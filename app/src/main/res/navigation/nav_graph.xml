@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/three_Splash">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kamanov.game.FirstFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_three_View"
+            app:destination="@id/three_View" />
+        <action
+            android:id="@+id/action_FirstFragment_to_records2"
+            app:destination="@id/records2" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.kamanov.game.SecondFragment"
+        android:label="Player"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_three_View"
+            app:destination="@id/three_View"
+            app:launchSingleTop="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/three_Splash"
+        android:name="com.kamanov.game.Three_Splash"
+        android:label="fragment_three__splash"
+        tools:layout="@layout/fragment_three__splash" >
+        <action
+            android:id="@+id/action_three_Splash_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/three_View"
+        android:name="com.kamanov.game.Three_View"
+        android:label="fragment_three__view"
+        tools:layout="@layout/fragment_three__view" >
+        <action
+            android:id="@+id/action_three_View_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_three_View_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/records2"
+        android:name="com.kamanov.game.Records"
+        android:label="fragment_records"
+        tools:layout="@layout/fragment_records" >
+        <action
+            android:id="@+id/action_records2_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

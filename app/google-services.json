@@ -1,42 +1,33 @@
 {
   "project_info": {
-    "project_number": "46854812272",
-    "firebase_url": "https://game-e6bfc-default-rtdb.firebaseio.com",
-    "project_id": "game-e6bfc",
-    "storage_bucket": "game-e6bfc.appspot.com"
+    "project_number": "96667397800",
+    "project_id": "kamanovgame",
+    "storage_bucket": "kamanovgame.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:46854812272:android:f9dd3dd29aacb6336e3ab5",
+        "mobilesdk_app_id": "1:96667397800:android:d3c5ed57ad0d1851ff9c9d",
         "android_client_info": {
           "package_name": "com.kamanov.game"
         }
       },
       "oauth_client": [
         {
-          "client_id": "46854812272-jpleij7hdabbofdphd0i48qa081usef3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.kamanov.game",
-            "certificate_hash": "0fd5420f39ebdf3fb7df9369aca2d262f9611a93"
-          }
-        },
-        {
-          "client_id": "46854812272-v5b011nnhik4niglchq7to3upr79sq6b.apps.googleusercontent.com",
+          "client_id": "96667397800-l13789a1qhu21lkcsplaku42aij5fu12.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBXQHgGsl9Ry75QG7duvE_gzlagn3SMCXw"
+          "current_key": "AIzaSyDJCNUYMhDLXgCMgoSi8EEk7MWxCTljJA4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "46854812272-v5b011nnhik4niglchq7to3upr79sq6b.apps.googleusercontent.com",
+              "client_id": "96667397800-l13789a1qhu21lkcsplaku42aij5fu12.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

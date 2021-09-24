@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         unity = getSharedPreferences("com.kamanov.game.v2.playerprefs", MODE_PRIVATE);
         base = FirebaseDatabase
-                .getInstance("https://game-e6bfc-default-rtdb.firebaseio.com/")
+                .getInstance("https://kamanovgame-default-rtdb.europe-west1.firebasedatabase.app/")
                 .getReference()
                 .child("Users");
 

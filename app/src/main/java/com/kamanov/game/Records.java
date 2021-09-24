@@ -38,7 +38,7 @@ public class Records extends Fragment {
         list_item = root.findViewById(R.id.list_item);
 
         Query databaseReference = FirebaseDatabase
-                .getInstance("https://game-e6bfc-default-rtdb.firebaseio.com/")
+                .getInstance("https://kamanovgame-default-rtdb.europe-west1.firebasedatabase.app/")
                 .getReference()
                 .child("Users")
         .orderByChild("level").limitToLast(10);
